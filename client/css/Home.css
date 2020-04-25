@@ -1,0 +1,61 @@
+.Home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  color: #e7e7e7;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Home h2 {
+  margin: 0 0 1rem 0;
+}
+
+.Home .row {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.Home .row:nth-child(even) .col-8 .row {
+  background-color: #e7e7e7;
+  color: black;
+  border: 2px solid rgba(255, 255, 255, 0.714);
+}
+
+.Home .row:nth-child(odd) .col-8 .row {
+  background-color: #e7e7e7;
+  border: 2px solid rgba(255, 255, 255, 0.714);
+}
+
+.Home .row:nth-child(2) .col-8 .row {
+  background-color: rgba(0, 0, 0, 0.374);
+  color: white;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+.service-image {
+  background-color: white;
+}
+
+.card {
+  margin: 0.7rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=Home.css.map */
