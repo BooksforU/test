@@ -1,7 +1,0 @@
-APIs - 20
-1. Backend - CRUD for creating recipes - 10
-2. Backend - CRUD for creating cuisines - 5
-3. Backend - Api to save image in a cloud database - 5
-Tables - 15
-1. Backend - Recipes Table - 10
-2. Backend - Cuisines table 
