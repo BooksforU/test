@@ -1,7 +1,7 @@
 const db = require('../config/db')
 const Seq = require('sequelize')
-let cuisineTable = db.define('cuisine', {
-    cuisineName : {
+let userTable = db.define('user', {
+    userName : {
         type: Seq.STRING
     }
 },
@@ -11,4 +11,4 @@ let cuisineTable = db.define('cuisine', {
 
 
 
-module.exports = cuisineTable
+module.exports = userTable
